@@ -181,6 +181,9 @@ a:hover {
     width: 350px;
     color: crimson;
     font-weight: bolder;
+    background-color: #E4E4DC;
+    border-radius: 20px;
+    
 }
 
 .l1 {
@@ -426,26 +429,11 @@ button {
     outline: none;
 }
 
-#workbutton {
-    place-self: center;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    font-size: medium;
-}
-
-#workbutton:hover {
-    opacity: 100%;
-    font-weight: bold;
-}
-
-.footercontainer {
-    position: relative;
+footer {
     background-color: #333131;
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 20%;
+}
+.logoexp {
+    color: #ff0505;
 }
 
 .licon {
